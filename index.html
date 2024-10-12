@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Pokemon</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap"
+          rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+    <!-- Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 <header>
     <nav>
-
+        <div class="nav-title">
+            <p>My Pokemon</p>
+        </div>
+        <ul>
+            <li>
+                <a href="#home" class="active">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#pokemon">
+                    Pokemon
+                </a>
+            </li>
+            <li>
+                <a href="#news">News</a>
+            </li>
+        </ul>
+        <div class="nav-toggle">
+            <a href="#">
+                <i style="font-size: 40px; color: var(--second-color)" class='bx bx-sun'></i>
+            </a>
+        </div>
     </nav>
+    <div class="jumbotron">
+        <div class="jumbotron-desc">
+            <p class="jumbotron-desc-1">You want to be a Trainer?</p>
+            <p class="jumbotron-desc-2">Let's check it out!</p>
+            <p class="jumbotron-desc-3">There are lots of Pokemon that you need to know to become a great Pokemon
+                trainer</p>
+            <button class="jumbotron-btn">Explore Now</button>
+        </div>
+        <div class="jumbotron-img">
+            <img src="/assets/img/img-1.svg" alt="jumbotron-img"/>
+        </div>
+    </div>
 </header>
 <main>
 

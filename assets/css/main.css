@@ -1,0 +1,14 @@
+:root {
+    --first-color: #00712D;
+    --second-color: #D5ED9F;
+    --third-color: #FF9100;
+    --fourth-color: #FFFBE6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
