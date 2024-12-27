@@ -42,13 +42,14 @@ nav ul li a .active {
     justify-content: space-between;
     max-width: 1440px;
     height: 595px;
+    border: 1px solid var(--third-color);
     background: var(--second-color);
     border-radius: 16px;
     margin: 30px auto;
 }
 
 .jumbotron .jumbotron-img {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 70px;
     margin-right: 20px;
 }

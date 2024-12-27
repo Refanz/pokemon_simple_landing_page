@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Pokemon</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,9 +13,9 @@
           rel="stylesheet">
 
     <!-- Style -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
     <!-- Icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -56,15 +56,124 @@
             <button class="jumbotron-btn">Explore Now</button>
         </div>
         <div class="jumbotron-img">
-            <img src="/assets/img/img-1.svg" alt="jumbotron-img"/>
+            <img src="./assets/img/img-1.svg" alt="jumbotron-img"/>
         </div>
     </div>
 </header>
-<main>
-
+<main class="main">
+    <div class="content">
+        <div class="content-wrapper">
+            <div class="content-main">
+                <div class="sub-content">
+                    <p class="content-main-title">What is Pokemon?</p>
+                    <p class="content-main-desc">Pokémon are mysterious creatures with many secrets. Some Pokémon live
+                        with
+                        humans and some live in the
+                        wild in grasslands, caves, or the sea, but much about their ecology is still unknown. One of
+                        their
+                        main
+                        features is that they can be caught using a Poké Ball, which allows them to be carried
+                        around.</p>
+                </div>
+                <div class="sub-content">
+                    <p class="content-main-title">There are many types of Pokémon</p>
+                    <p class="content-main-desc">Pokémon are grouped into 18 types based on their characteristics. For
+                        example, Pikachu is an Electronic type Pokémon and Magikarp is a Water type. There are some
+                        Pokémon that fall into two types, such as Jigglypuff, which is a Normal and Fairy type. Each
+                        type has a special affinity that has a big influence in combat. If your opponent's Pokémon have
+                        the right type of affinity, it can be a huge advantage in battle.</p>
+                </div>
+                <div class="sub-content">
+                    <p class="content-main-title">Pokemon Gender?</p>
+                    <p class="content-main-desc">Most Pokémon have one of two genders, determining whether the Pokémon
+                        is male or female. Some Pokémon have a greater chance of being one gender than another, such as
+                        Blastoise which has a 87.5% chance of being male, but only a 12.5% chance of being female. Some
+                        Pokémon can only be one gender, such as Froslass and Hitmontop, which are exclusively female and
+                        exclusively male respectively. There are also moves that will only work when Pokémon are certain
+                        genders, such as Attract which only works if the opponent is the opposite gender of the
+                        user.</p>
+                </div>
+            </div>
+            <aside class="content-aside">
+                <img src="./assets/img/pokeball.png" alt="pokeball">
+                <p class="aside-title">Pokemon</p>
+                <div class=aside-desc>
+                    <div class="aside-desc-item">
+                        <p>Author</p>
+                        <p>Satoshi Tajiri</p>
+                    </div>
+                    <div class="aside-desc-item">
+                        <p>Title</p>
+                        <p>Pocket Monster</p>
+                    </div>
+                    <div class="aside-desc-item">
+                        <p>Country</p>
+                        <p>Japan</p>
+                    </div>
+                    <div class="aside-desc-item">
+                        <p>Publisher</p>
+                        <p>The Pokemon Company</p>
+                    </div>
+                    <div class="aside-desc-item">
+                        <p>Published Date</p>
+                        <p>1995 - current</p>
+                    </div>
+                    <div class="aside-desc-item">
+                        <p>Genre</p>
+                        <p>Fantasy/Adventure</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <div class="content">
+        <p class="content-title">My Pokemon</p>
+        <div class="list-pokemon">
+            <div class="pokemon-card">
+                <p class="card-title">Normal</p>
+                <img src="./assets/img/pidgey.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Fairy</p>
+                <img src="./assets/img/weezing.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Fighting</p>
+                <img src="./assets/img/mankey.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Ground</p>
+                <img src="./assets/img/dugtrio.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Ice</p>
+                <img src="./assets/img/cloyster.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Physics</p>
+                <img src="./assets/img/gardevoir.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Ghost</p>
+                <img src="./assets/img/gengar.png" alt="pokemon">
+            </div>
+            <div class="pokemon-card">
+                <p class="card-title">Rock</p>
+                <img src="./assets/img/kabuto.png" alt="pokemon">
+            </div>
+        </div>
+    </div>
 </main>
-<footer>
-
+<footer class="footer">
+    <div class="footer-content">
+        <div class="social-media-wrapper">
+            <i class='icon bx bxl-instagram-alt'></i>
+            <i class='icon bx bxl-twitter'></i>
+            <i class='icon bx bxl-facebook-circle'></i>
+        </div>
+        <p class="text-main">My Pokemon</p>
+        <p class="text-copyright">© 2024 My Pokemon. All rights reserved.</p>
+    </div>
 </footer>
 </body>
 </html>
