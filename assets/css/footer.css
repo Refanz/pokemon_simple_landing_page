@@ -32,3 +32,14 @@
 .social-media-wrapper .icon {
     font-size: 50px;
 }
+
+@media screen and (max-width: 830px) {
+    .footer {
+        height: fit-content;
+    }
+
+    .footer .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

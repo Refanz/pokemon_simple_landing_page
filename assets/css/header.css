@@ -89,8 +89,9 @@ nav ul li a .active {
 
 
 .jumbotron .jumbotron-desc .jumbotron-desc-3 {
+    display: block;
     font-family: "Montserat", "sans-serif";
-    width: 50%;
+    width: 500px;
     margin-top: 80px;
     font-size: 20px;
 }
@@ -98,14 +99,32 @@ nav ul li a .active {
 @media screen and (max-width: 900px) {
     .jumbotron {
         flex-direction: column;
+        min-height: fit-content;
+    }
+
+    .jumbotron .jumbotron-desc .jumbotron-desc-1 {
+        font-size: 24px;
+    }
+
+    .jumbotron .jumbotron-desc .jumbotron-desc-2 {
+        font-size: 20px;
+    }
+
+    .jumbotron .jumbotron-desc .jumbotron-desc-3 {
+        width: 100%;
     }
 
     .jumbotron .jumbotron-img {
-        margin: 0;
+        display: none;
     }
 
-    .jumbotron .jumbotron-img img {
-        max-width: fit-content;
-        margin: 200px;
+    nav ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .jumbotron .jumbotron-desc {
+        margin: 40px 20px;
     }
 }
