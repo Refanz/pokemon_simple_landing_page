@@ -1,0 +1,43 @@
+.sidebar {
+    top: 0;
+    left: -250px;
+    position: fixed;
+    width: 250px;
+    height: 100dvh;
+    background: var(--first-color);
+    border-right: 2px solid var(--third-color);
+}
+
+.sidebar .sidebar-content {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-content .sidebar-menu {
+    margin-top: 20px;
+}
+
+.sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-menu ul li {
+    cursor: pointer;
+    font-family: "Montserat", "sans-serif";
+    font-size: 20px;
+    color: var(--second-color);
+}
+
+.sidebar-menu ul li:hover {
+    border-bottom: 2px solid var(--third-color);
+}
+
+.sidebar.active {
+    left: 0;
+}

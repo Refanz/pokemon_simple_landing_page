@@ -13,6 +13,11 @@ nav {
     max-width: 1440px;
 }
 
+nav .nav-toggle {
+    display: none;
+    cursor: pointer;
+}
+
 nav .nav-title {
     font-size: 24px;
     font-family: "Press Start 2P", "sans-serif";
@@ -21,20 +26,17 @@ nav .nav-title {
 
 nav ul {
     display: flex;
+    gap: 100px;
 }
 
-nav ul li {
-    margin-right: 100px;
+nav ul li:hover {
+    border-bottom: 2px solid var(--third-color);
 }
 
 nav ul li a {
     font-family: "Montserat", "sans-serif";
     font-size: 20px;
     color: var(--second-color);
-}
-
-nav ul li a .active {
-
 }
 
 .jumbotron {
@@ -148,6 +150,10 @@ nav ul li a .active {
 
     nav ul {
         display: none;
+    }
+
+    nav .nav-toggle {
+        display: block;
     }
 }
 
