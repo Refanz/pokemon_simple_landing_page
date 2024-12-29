@@ -57,7 +57,9 @@ nav ul li a .active {
 
 .jumbotron .jumbotron-img img {
     width: 400px;
+    height: 680px;
     display: none;
+    object-fit: contain;
 }
 
 .jumbotron-img img.active {
